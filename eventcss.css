@@ -1,0 +1,72 @@
+   body{
+           background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            max-width: 800px; /* Adjust the maximum width as needed */
+            margin: 5px auto; /* Center the table on the page */
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        }
+
+        th, td {
+             padding: 5px 50px; /* Adjusted padding */
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+th, td {
+    text-align: center;
+    border: 1px solid #ddd;
+}
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .signup-btn {
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 3px;
+            display: inline-block;
+            width: 100%; /* Adjusted width to 100% */
+            text-align: center;
+        }
+
+        .signup-btn:hover {
+            background-color: #45a049;
+        }
+
+        th.action-cell, td.action-cell {
+            width: 200px; /* Adjust the width of the action column as needed */
+        }
+
+        /* Styling for event type */
+        .Conference { font-weight: bold; }
+        .Wedding { font-weight: bold; }
+        .SportsEvent { font-weight: bold; }
+        .MusicFestival { font-weight: bold; }
+        .CharityGala { font-weight: bold; }
+        .ArtExhibition { font-weight: bold; }
+        .BusinessNetworkingMixer { font-weight: bold; }
+        .CulinaryFestival { font-weight: bold; }
+        .LiteraryEvent { font-weight: bold; }
+        .FilmPremiere { font-weight: bold; }
+
+        /* Hover effect for table rows */
+        tr:hover {
+            background-color: #f5f5f5;
+        }

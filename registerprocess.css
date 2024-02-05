@@ -1,0 +1,37 @@
+/* registerprocess.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fffff;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .success-message {
+    background-color: #66bb6a; /* Green background color for success message */
+    color: #ffffff; /* White text color for success message */
+  }
+  
+  .failure-message {
+    background-color: #ef5350; /* Red background color for failure message */
+    color: #ffffff; /* White text color for failure message */
+  }
+  
+  .registration-link {
+    color: black; /* Blue color for registration link */
+    text-decoration: none;
+  }
+  
+  .registration-link:hover {
+    text-decoration: underline;
+  }
+  
